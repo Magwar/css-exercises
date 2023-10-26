@@ -26,3 +26,63 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*Solution*/
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+.content{
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar{
+  padding: 16px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.mainContent{
+  display: flex;
+  flex-wrap:  wrap;
+  padding: 32px;
+}
+
+.card{
+  width: 300px;
+  padding: 16px;
+  margin: 16px; /*Little Teacher Help*/
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0; /*Help to make the a links get to zero */
+}
+
+li{
+  margin: 0 0 15px 0; /* help*/
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
